@@ -1,0 +1,43 @@
+{
+	com.badlogic.gdx.graphics.Color: {
+		orange: { r: 100, g: 65, b: 0, a: 1 },
+		grey: {r: 69, g: 69, b: 69, a: 1},
+		red: {r: 100, g: 0, b: 0, a: 1},
+		black: {r: 0, g: 0, b: 0, a: 1},
+		alpha: {r: 0, g: 0, b: 0, a: 0}
+	},
+
+  	com.badlogic.gdx.graphics.g2d.BitmapFont: { 
+		default-font: { 
+			file: Avdira_40_Ext.fnt,
+		} 
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: {
+			font: default-font, 
+			fontColor: orange
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default: {
+			font: default-font,
+			fontColor: red,
+			downFontColor: orange,
+			down: down,
+			up: up
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+		default: {
+			font: default-font,
+			fontColor: red
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+		default: {
+			font: default-font,
+			checkboxOff: down,
+			checkboxOn: up
+		}
+	}
+}

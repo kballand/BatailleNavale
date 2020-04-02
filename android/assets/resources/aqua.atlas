@@ -1,0 +1,22 @@
+
+aqua.png
+size: 128,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+down
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  split: 10, 10, 10, 10
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+up
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  split: 10, 10, 10, 10
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
